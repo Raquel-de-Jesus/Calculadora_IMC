@@ -11,7 +11,7 @@ class Tela():
         imc = (peso)/(altura**2)
         classificacao = ""
 
-        if (imc <= 18.5):
+        if (imc < 18.5):
             classificacao = "Magreza"
         elif (imc >= 18.5 and imc <= 24.9):
             classificacao = "Ideal"
